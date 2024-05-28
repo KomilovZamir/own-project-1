@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+font-size: 16px;
+font-family: 'Times New Roman', Times, serif;
+text-transform: uppercase;
+
+}
+.container {
+    height: 100vh;
+    background-image: url(home-banner.png);
+}
+.navbar {
+    height: 16%;
+    width: 80%;
+    display: flex;
+
+    align-items: center;
+    justify-content: right;
+}
+.info {
+    margin-top: 40px;
+    padding: 20px;
+}
+.info-items {
+    margin: 30px auto;
+}
+.box {
+    
+}
+    
+    
+    
+

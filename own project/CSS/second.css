@@ -1,0 +1,50 @@
+.navbar a {
+padding: 32px;
+text-decoration: none;
+font-size: 1.25rem;
+letter-spacing: 6px;
+margin-right:100px;
+color: inherit;
+}
+.info span {
+    color: #797979;
+    font-size: 1.875rem;
+}
+.info h1 {
+    background-image: linear-gradient(black ,green);
+     background-clip: text;
+     color: transparent;
+    font-size: 6.25rem;
+}
+.info p {
+    font-size: 5rem;
+    background-image: linear-gradient(blue,red);
+    background-clip: text;
+    color: transparent;
+}
+.btn {
+    width: 15%;
+    height: 10%;
+    margin-left: 25%;
+    margin-top: 3%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to right,blue ,red);
+    background-clip: border-box;
+    background-size: 200% 100%;
+    border-radius: 10px;
+    color: white;
+    font-size: 1.875rem;;
+    
+    font-weight: 300;
+    transition: background-position-x .3s;
+}
+.navbar a:hover {
+    color: aqua;
+    transform: translatey(-20px);
+    transition: 1s;
+}
+.btn:hover {
+background-position-x: right;
+}
